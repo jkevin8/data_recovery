@@ -33,8 +33,48 @@ Recuperar, mas por quê?
 ## Estratégias de Backup
 
 * Importância
+
+O backup (cópia  de segurança) é a única forma de recuperar informações em caso de pane (tanto por parte do hardware quanto dos softwares). Arquivos de dados, como: fotos, imagens, planilhas, textos, etc. Computadores e programas podem parar de uma hora para outra, impedindo acesso às informações. Você nunca sabe quando isso irá acontecer, portanto é importante manter o backup sempre atualizado.
+
 * Tipos de backup
+
+Backup Completo: este tipo de backup faz uma cópia de todos os dados para outro local. Sem nenhum tipo de segmentação.
+
+ * Backup Incremental 
+ 
+ Resultará na cópia apenas dos dados que foram alterados desde a última operação de backup de qualquer tipo.
+ 
+ * Backup Diferencial 
+ 
+ É semelhante a um incremental na primeira vez em que é executada, pois copiará todos os dados alterados do backup anterior. No entanto, cada vez que for executado posteriormente, ele continuará copiando todos os dados alterados desde o backup completo anterior.
+
+ * Backup Espelhado
+ 
+ Quando um arquivo na origem é excluído, ele também é excluído no backup de espelhamento. Por isso, os backups espelhados devem ser usados com cautela, pois, um arquivo excluído acidentalmente ou por vírus, também pode fazer com que os backups espelhados sejam excluídos.
+
+ * Backup Local
+ 
+  Qualquer tipo de backup em que o meio de armazenamento é mantido à mão, em dispositivo físico. Backups locais protegem o conteúdo digital de falhas no disco rígido e ataques de vírus. 
+
+ * Backup Externo 
+ 
+ Quando o armazenamento de mídia de backup é mantido em um local geográfico diferente da origem, isso é conhecido como backup externo.
+
+ * Backup Online ou na Nuvem 
+ 
+ Estes são backups feitos continuamente, sempre conectado à origem que está sendo armazenada em backup. Normalmente, o meio de armazenamento em nuvem está localizado fora do local e conectado à fonte de backup por uma rede ou conexão com a Internet.
+
+ * Backup Remoto
+ 
+ É uma forma de backup externo, com a diferença de que você pode acessar, restaurar ou administrar os backups enquanto está localizado em seu local de origem ou outro local.
+
+ * Backup FTP
+ 
+ É um tipo de backup onde o processo é feito através da Internet para um servidor FTP. Normalmente, o servidor FTP está localizado em um data center comercial, longe dos dados de origem que estão sendo armazenados em backup.
+
+
 * RAID
+
 * Sistema Operacional
   * Linux
     Script
